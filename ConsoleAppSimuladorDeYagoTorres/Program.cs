@@ -69,7 +69,6 @@ namespace ConsoleAppSimuladorDeYagoTorres
                     {
                         hora = hora + 12;
                     }
-;
                 }                           
             }
             return $"{hora.ToString().PadLeft(2, '0')}:{minutos.ToString().PadLeft(2, '0')}:{segundos.ToString().PadLeft(2, '0')} {FormatoSelect.ToUpper()}";
